@@ -1,0 +1,18 @@
+general: &general
+
+  default_types: 'store'
+  default_name: 'Unnamed'
+  default_accuracy: 50
+  default_language: 'en'
+
+development:
+  <<: *general
+  api_key: "feed-me-with-a-valid-api-key"
+
+test:
+  <<: *general
+  api_key: ""
+
+production:
+  <<: *general
+  api_key: ""
