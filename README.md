@@ -8,9 +8,8 @@ But ... you could use it at your own risk!
 
 ## Installation
 
-Add this two lines to your application's Gemfile:
+Add this line to your application's Gemfile:
 
-    gem 'httparty'
 	gem 'placed'
 
 And then execute:
